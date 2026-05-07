@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Environment and credentials
+.env
+.env.*
+gcp-key.json
+*.pem
+*.key
+
+# Local generated data
+data/indices/
+data/qdrant_storage/
+data/processed/
+data/evaluation/
+
+# Phase 6 visual outputs
+data/processed/phase6_visual/
+
+# Streamlit / app local state
+.streamlit/
+
+# Logs and temp files
+*.log
+tmp/
+temp/
